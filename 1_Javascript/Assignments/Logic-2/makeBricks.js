@@ -7,6 +7,6 @@ function makeBricks(small, big, goal){
       if (goal % 5 > small) {
         return false;
       }
-    
+      
       return true;
   }
