@@ -1,4 +1,5 @@
-let subArray = [];
+function squareUp(n){
+  let subArray = [];
   let j = n;
   while (j > 0) {
     subArray.push(0);
@@ -12,3 +13,4 @@ let subArray = [];
     output = output.concat(subArray);
   }
   return output;
+}
