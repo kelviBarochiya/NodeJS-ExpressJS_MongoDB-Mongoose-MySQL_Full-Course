@@ -10,3 +10,4 @@ function linearIn(outer, inner){
     return j == inner.length;
   
   }
+  
